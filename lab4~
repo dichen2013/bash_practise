@@ -1,0 +1,4 @@
+#!/bin/bash
+a=$(cat File | grep ${1} | cut -d " " -f 2-);
+echo $a
+

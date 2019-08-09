@@ -1,0 +1,12 @@
+#!/bin/bash
+if [${1} = Eric ]; then
+    echo "Hello Eric" >> greeting.log
+elif [$[1] = Amanda]; then
+    echo "Greeting professor Amanda" >> greeting.log
+elif [${1} = Petter]; then
+    echo "Good day Petter" >> greeting.log
+else
+    cat greeting.log
+fi
+
+

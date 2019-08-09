@@ -1,0 +1,8 @@
+#!/bin/bash
+greeting = $(cat File | grep ${1}| cut -d ":" -f 1-);
+if [ greeting = "" ];
+then
+    echo "Can not find the person"
+else
+    echo $greeting
+fi
